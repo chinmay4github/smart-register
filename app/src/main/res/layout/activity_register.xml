@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+
+    tools:context=".RegisterActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:background="@drawable/input"
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:inputType="textEmailAddress"
+        android:hint="Enter Your Email" />
+
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:background="@drawable/input"
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Enter Your Password" />
+
+
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create An Account "
+        android:textColor="#F1EEEE"
+        android:background="#2196F3"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/already_registered"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textColor="#FF5722"
+        android:text="Already Registered? Please Click to Login Here."
+        android:fontFamily="casual"/>
+
+
+</LinearLayout>

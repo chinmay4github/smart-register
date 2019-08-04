@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "620136035055",
+    "firebase_url": "https://starreg-b2d7c.firebaseio.com",
+    "project_id": "starreg-b2d7c",
+    "storage_bucket": "starreg-b2d7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620136035055:android:ee27d0c4bb070431",
+        "android_client_info": {
+          "package_name": "com.hermit.starreg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620136035055-cnqsu692ttasu3l763kl1d7laus9jmpp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hermit.starreg",
+            "certificate_hash": "97f79cf99cb0ccf33a15056961fc76433ee18ea9"
+          }
+        },
+        {
+          "client_id": "620136035055-0upoak92bho9eprctjm99op9poqm1693.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxaMaQdHQ-ToN7M9he4HdivJyiLfTdN8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620136035055-0upoak92bho9eprctjm99op9poqm1693.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
